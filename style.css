@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.fixed
+{
+    padding: 50px;
+    background-color: gray;
+    color: white;
+   
+    position: fixed;
+}
+h1
+{
+    text-align: center;
+}
+.relative
+{
+    padding: 70px;
+    background: gray;
+    position: relative;
+    width: 40%;
+    left: 300px;
+    color: white;
+    text-align: center;
+
+
+
+}
+.absolute
+{
+    position: absolute;
+    padding: 30px;
+    background: white;
+    border: 1px solid black;
+    right: -20px;
+    color: black;
+    width: 100px;
+}
